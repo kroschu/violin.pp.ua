@@ -69,21 +69,6 @@
 </head>
 
 <body>
-    
-  <!-- Intergram -->  
-  
- <script> 
-    window.intergramId = "6412868393";
-    window.intergramCustomizations = {
-        mainColor: "#F58233",
-        titleClosed: 'Je vous intéresse ?',
-        titleOpen: 'Nous écrivons ici',
-        introMessage: 'Un moyen rapide de me contacter. Écrivez un message ci-dessous et appuyez sur Entrée. Je vous répondrai dans les plus brefs délais.',
-        alwaysUseFloatingButton: false // Use the mobile floating button also on large screens
-    };
-    window.intergramServer = "https://violinist.rmrf.pp.ua"
-</script>
-<script id="intergram" type="text/javascript" src="https://violinist.rmrf.pp.ua/js/widget.js"></script>
 
   <!-- BOOTSTRAP NAVBAR -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -553,6 +538,28 @@
       pageTracker._trackPageview();
     } catch (err) { }
   </script>
+
+    
+  <!-- INTERGRAM -->  
+  
+ <script> 
+    window.intergramId = "6412868393";
+    window.intergramCustomizations = {
+        mainColor: "#F58233",
+        titleClosed: 'Je vous intéresse ?',
+        titleOpen: 'Nous écrivons ici',
+        introMessage: 'Un moyen rapide de me contacter. Écrivez un message ci-dessous et appuyez sur Entrée. Je vous répondrai dans les plus brefs délais.',
+        autoResponse: 'Un moment, le message est envoyé.',
+        autoNoResponse: 'Je ne pense pas pouvoir répondre maintenant ' +
+    'Laissez-moi vos coordonnées et je vous répondrai dès que possible.',
+        placeholderText : 'Envoyer un message...',
+        displayMessageTime: true,
+        visitorPronoun: 'Vous',
+        alwaysUseFloatingButton: false // Use the mobile floating button also on large screens
+    };
+    window.intergramServer = "https://violinist.rmrf.pp.ua"
+</script>
+<script id="intergram" type="text/javascript" src="https://violinist.rmrf.pp.ua/js/widget.js"></script>
 
   <!-- JQUERY -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
